@@ -1,0 +1,66 @@
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.weights
+*.bin
+*.pkl
+*.pickle
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+
+# Archives
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+*.bz2
+
+# Datasets
+datasets/
+dataset/
+
+# Training/val data
+train/
+test/
+val/
+
+# Results and outputs
+results/
+result/
+output/
+
+# Logs
+log/
+logs/
+
+# Model analysis
+model_analysis/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Agent/editor config
+.agents/
+.codebuddy/
+
+# Memory
+.claude/

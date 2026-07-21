@@ -1,0 +1,76 @@
+尚未修该损失函数：
+hermiston
+classification:               precision    recall  f1-score   support
+
+         0.0       0.92      1.00      0.96     65514
+         1.0       0.92      0.35      0.51      8736
+
+    accuracy                           0.92     74250
+   macro avg       0.92      0.67      0.73     74250
+weighted avg       0.92      0.92      0.90     74250
+ confusion: [[65232   282]
+ [ 5650  3086]] oa 0.9201077441077441 aa 0.6744732461344559 kappa 0.4755763462996808 f1 0.5099140779907468 auc 0.6744732461344559
+
+river
+classification:               precision    recall  f1-score   support
+
+         0.0       0.98      0.95      0.96     99385
+         1.0       0.54      0.77      0.64      8448
+
+    accuracy                           0.93    107833
+   macro avg       0.76      0.86      0.80    107833
+weighted avg       0.95      0.93      0.94    107833
+ confusion: [[93927  5458]
+ [ 1975  6473]] oa 0.9310693386996559 aa 0.8556495559671145 kappa 0.5984239643420877 f1 0.6352617890966191 auc 0.8556495559671143
+
+farm
+classification:               precision    recall  f1-score   support
+
+         0.0       0.91      0.98      0.94     42223
+         1.0       0.94      0.74      0.83     17027
+
+    accuracy                           0.91     59250
+   macro avg       0.92      0.86      0.89     59250
+weighted avg       0.92      0.91      0.91     59250
+ confusion: [[41444   779]
+ [ 4350 12677]] oa 0.9134345991561181 aa 0.8630368719337818 kappa 0.774541024884008 f1 0.8317422825837352 auc 0.8630368719337819
+
+
+
+ 修改损失函数后：
+ Hermiston
+ classification:               precision    recall  f1-score   support
+
+         0.0       0.89      1.00      0.94     65514
+         1.0       0.99      0.09      0.16      8736
+
+    accuracy                           0.89     74250
+   macro avg       0.94      0.54      0.55     74250
+weighted avg       0.90      0.89      0.85     74250
+ confusion: [[65507     7]
+ [ 7961   775]] oa 0.8926868686868686 aa 0.5443032612859864 kappa 0.14634532968459557 f1 0.1628493380962387 auc 0.5443032612859864
+
+
+river
+classification:               precision    recall  f1-score   support
+
+         0.0       0.93      1.00      0.96     99385
+         1.0       0.94      0.07      0.13      8448
+
+    accuracy                           0.93    107833
+   macro avg       0.94      0.54      0.55    107833
+weighted avg       0.93      0.93      0.90    107833
+ confusion: [[99349    36]
+ [ 7849   599]] oa 0.9268776719557092 aa 0.5352710641801244 kappa 0.122280118787778 f1 0.13189474843113508 auc 0.5352710641801244
+
+farm
+classification:               precision    recall  f1-score   support
+
+         0.0       0.86      1.00      0.92     42223
+         1.0       0.98      0.58      0.73     17027
+
+    accuracy                           0.88     59250
+   macro avg       0.92      0.79      0.83     59250
+weighted avg       0.89      0.88      0.87     59250
+ confusion: [[42015   208]
+ [ 7087  9940]] oa 0.8768776371308017 aa 0.7894262396837095 kappa 0.6581925644702146 f1 0.7315547378104876 auc 0.7894262396837094

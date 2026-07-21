@@ -1,0 +1,27 @@
+patch_sieze = 5   1%样本  EPOCHES = 100  pca_channel=30
+
+
+hermiston
+OA: 0.976975
+Cohen's Kappa: 0.895720
+ Pr: 0.920976, Re: 0.897127, F1: 0.908895
+
+ farmland
+OA: 0.957095
+Cohen's Kappa: 0.895289
+ Pr: 0.933675, Re: 0.917265, F1: 0.925397
+
+ river
+OA: 0.936624
+Cohen's Kappa: 0.485834
+ Pr: 0.767490, Re: 0.388501, F1: 0.515870
+
+ dataname = 'Barbara'
+OA: 0.960595
+Cohen's Kappa: 0.917489
+ Pr: 0.948109, Re: 0.951911, F1: 0.950006
+
+ dataname = 'BayArea'
+OA: 0.795948
+Cohen's Kappa: 0.589006
+ Pr: 0.799761, Re: 0.824652, F1: 0.812016

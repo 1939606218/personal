@@ -1,0 +1,31 @@
+dataset = 'farmland'
+classification               precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98      8945
+           1       0.96      0.94      0.95      3655
+
+    accuracy                           0.97     12600
+   macro avg       0.97      0.96      0.96     12600
+weighted avg       0.97      0.97      0.97     12600
+
+confusion [[8789  156]
+ [ 225 3430]]
+oa 96.97619047619047
+aa 96.05002909557496
+kappa 92.61706714584115
+
+dataset = 'river'
+classification               precision    recall  f1-score   support
+
+           0       0.97      0.91      0.94     20347
+           1       0.44      0.74      0.55      1938
+
+    accuracy                           0.90     22285
+   macro avg       0.71      0.82      0.75     22285
+weighted avg       0.93      0.90      0.91     22285
+
+confusion [[18530  1817]
+ [  511  1427]]
+oa 89.55351133049136
+aa 82.35127376955134
+kappa 49.586115153969025

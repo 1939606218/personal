@@ -1,0 +1,17 @@
+1%样本
+patch_size = 7 batch_size = 64 epoch = 100
+
+=== 评估结果 ===
+数据集:hermiston | OA:98.79% | Kappa:0.9459 | F1:95.28% | Precision:95.10% | Recall:95.46%
+
+=== 评估结果 ===
+数据集:farmland | OA:97.16% | Kappa:0.9322 | F1:95.24% | Precision:92.79% | Recall:97.82%
+
+=== 评估结果 ===
+数据集:river | OA:96.53% | Kappa:0.7702 | F1:78.90% | Precision:83.60% | Recall:74.71%
+
+=== 评估结果 ===
+数据集:Barbara | OA:0.9839 | Kappa:0.9662 | F1:0.9795 | Precision:0.9763 | Recall:0.9828
+
+=== 评估结果 ===
+数据集:BayArea | OA:0.9687 | Kappa:0.9372 | F1:0.9705 | Precision:0.9761 | Recall:0.9650

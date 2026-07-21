@@ -1,0 +1,179 @@
+{
+  "group_7": {
+    "components": [
+      "SSDT",
+      "DRAF",
+      "DCL",
+      "HGLS"
+    ],
+    "metrics": {
+      "oa": 0.9717,
+      "kappa": 0.9325,
+      "f1": 0.9527,
+      "pr": 0.9438,
+      "re": 0.9644
+    },
+    "is_baseline": true,
+    "all_runs": [
+      {
+        "oa": 0.9687,
+        "kappa": 0.9254,
+        "f1": 0.9478,
+        "pr": 0.9358,
+        "re": 0.96
+      },
+      {
+        "oa": 0.9696,
+        "kappa": 0.9277,
+        "f1": 0.9494,
+        "pr": 0.9369,
+        "re": 0.9623
+      },
+      {
+        "oa": 0.97,
+        "kappa": 0.9286,
+        "f1": 0.95,
+        "pr": 0.9366,
+        "re": 0.9638
+      },
+      {
+        "oa": 0.9669,
+        "kappa": 0.9215,
+        "f1": 0.9452,
+        "pr": 0.9268,
+        "re": 0.9644
+      },
+      {
+        "oa": 0.9717,
+        "kappa": 0.9325,
+        "f1": 0.9527,
+        "pr": 0.9438,
+        "re": 0.9618
+      },
+      {
+        "oa": 0.9682,
+        "kappa": 0.924,
+        "f1": 0.9466,
+        "pr": 0.941,
+        "re": 0.9523
+      },
+      {
+        "oa": 0.9696,
+        "kappa": 0.9274,
+        "f1": 0.9491,
+        "pr": 0.939,
+        "re": 0.9594
+      },
+      {
+        "oa": 0.9705,
+        "kappa": 0.9297,
+        "f1": 0.9507,
+        "pr": 0.9412,
+        "re": 0.9604
+      },
+      {
+        "oa": 0.9699,
+        "kappa": 0.9284,
+        "f1": 0.9498,
+        "pr": 0.9386,
+        "re": 0.9614
+      },
+      {
+        "oa": 0.9694,
+        "kappa": 0.927,
+        "f1": 0.9488,
+        "pr": 0.9411,
+        "re": 0.9566
+      }
+    ],
+    "pca_channels": 16,
+    "pca_attempt": 3
+  },
+  "group_1": {
+    "components": [
+      "SSDT",
+      "DRAF"
+    ],
+    "metrics": {
+      "oa": 0.9672,
+      "kappa": 0.9216,
+      "f1": 0.945,
+      "pr": 0.9373,
+      "re": 0.9529,
+      "final_additional_dropout": 0.0
+    }
+  },
+  "group_2": {
+    "components": [
+      "SSDT",
+      "DCL"
+    ],
+    "metrics": {
+      "oa": 0.9673,
+      "kappa": 0.9223,
+      "f1": 0.9458,
+      "pr": 0.9279,
+      "re": 0.9643,
+      "final_additional_dropout": 0.12
+    }
+  },
+  "group_3": {
+    "components": [
+      "SSDT",
+      "HGLS"
+    ],
+    "metrics": {
+      "oa": 0.9694,
+      "kappa": 0.927,
+      "f1": 0.9489,
+      "pr": 0.9381,
+      "re": 0.9599,
+      "final_additional_dropout": 0.03
+    }
+  },
+  "group_4": {
+    "components": [
+      "SSDT",
+      "DCL",
+      "HGLS"
+    ],
+    "metrics": {
+      "oa": 0.9698,
+      "kappa": 0.9281,
+      "f1": 0.9497,
+      "pr": 0.9356,
+      "re": 0.9643,
+      "final_additional_dropout": 0.21
+    }
+  },
+  "group_5": {
+    "components": [
+      "SSDT",
+      "DRAF",
+      "HGLS"
+    ],
+    "metrics": {
+      "oa": 0.9692,
+      "kappa": 0.9265,
+      "f1": 0.9484,
+      "pr": 0.9405,
+      "re": 0.9565,
+      "final_additional_dropout": 0.0
+    }
+  },
+  "group_6": {
+    "components": [
+      "SSDT",
+      "DRAF",
+      "DCL"
+    ],
+    "metrics": {
+      "oa": 0.9683,
+      "kappa": 0.9246,
+      "f1": 0.9472,
+      "pr": 0.935,
+      "re": 0.9597,
+      "final_additional_dropout": 0.03
+    }
+  }
+}

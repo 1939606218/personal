@@ -1,0 +1,21 @@
+Hermiston
+tp,tn,fp,fn 8479 67699 315 1507
+F1=   0.903
+recall=   0.8491
+precision=   0.9642
+OA:  0.9766    kappa:  0.8898
+OA and Kappa values and other metrics: ['OA', 0.9766, 'kappa', 0.8898, 'F1', 0.903, 'recall', 0.8491, 'precision', 0.9642]
+
+river
+F1=   0.3837
+recall=   0.4184
+precision=   0.3543
+OA:  0.8832    kappa:  0.3196
+OA and Kappa values and other metrics: ['OA', 0.8832, 'kappa', 0.3196, 'F1', 0.3837, 'recall', 0.4184, 'precision', 0.3543]
+
+farm
+F1=   0.6452
+recall=   0.6575
+precision=   0.6334
+OA:  0.7902    kappa:  0.4964
+OA and Kappa values and other metrics: ['OA', 0.7902, 'kappa', 0.4964, 'F1', 0.6452, 'recall', 0.6575, 'precision', 0.6334]

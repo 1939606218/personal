@@ -1,0 +1,73 @@
+current_dataset = 'Hermiston'
+dim=[0,1,2]
+
+Epoch: 108/110 || lr: 0.0010000000000000002 || total_loss: 0.3260 sup_loss: 0.3211 unsup_loss ：0.0031 cl_loss ：0.0018 || Epoch time: 19.1113s || Epoch ETA: 0:00:38
+Epoch: 109/110 || lr: 0.0010000000000000002 || total_loss: 0.3183 sup_loss: 0.3133 unsup_loss ：0.0031 cl_loss ：0.0019 || Epoch time: 19.1513s || Epoch ETA: 0:00:19
+Loading pretrained model from ./weights/Hermiston/Hermiston_1_Final.pth
+remove prefix 'module.'
+Missing keys:0
+Unused checkpoint keys:0
+Used keys:181
+OA 99.35%
+Loading pretrained model from ./weights/Hermiston/Hermiston_1_Final.pth
+remove prefix 'module.'
+Missing keys:0
+Unused checkpoint keys:0
+Used keys:181
+OA 97.62%
+Loading pretrained model from ./weights/Hermiston/Hermiston_1_Final.pth
+remove prefix 'module.'
+Missing keys:0
+Unused checkpoint keys:0
+Used keys:181
+OA 97.75%
+pred_trl_acc 99.35%, pred_tru_acc 97.62%, pred_test_acc 97.75%
+assessment_result Hermiston_1 [97.74000000000001, 0.8958, 90.86999999999999, 94.23, 87.74]
+
+current_dataset = 'farmland'
+dim=[0,1]
+
+Loading pretrained model from ./weights/farmland/farmland_2_Final.pth
+remove prefix 'module.'
+Missing keys:0
+Unused checkpoint keys:0
+Used keys:181
+OA 100.00%
+Loading pretrained model from ./weights/farmland/farmland_2_Final.pth
+remove prefix 'module.'
+Missing keys:0
+Unused checkpoint keys:0
+Used keys:181
+OA 94.16%
+Loading pretrained model from ./weights/farmland/farmland_2_Final.pth
+remove prefix 'module.'
+Missing keys:0
+Unused checkpoint keys:0
+Used keys:181
+OA 94.05%
+pred_trl_acc 100.00%, pred_tru_acc 94.16%, pred_test_acc 94.05%
+assessment_result farmland_2 [94.07, 0.856, 89.75999999999999, 89.96, 89.57000000000001]
+
+
+current_dataset = 'farmland'
+dim=[0,1,2]
+Loading pretrained model from ./weights/farmland/farmland_2_Final.pth
+remove prefix 'module.'
+Missing keys:0
+Unused checkpoint keys:0
+Used keys:181
+OA 92.00%
+Loading pretrained model from ./weights/farmland/farmland_2_Final.pth
+remove prefix 'module.'
+Missing keys:0
+Unused checkpoint keys:0
+Used keys:181
+OA 87.28%
+Loading pretrained model from ./weights/farmland/farmland_2_Final.pth
+remove prefix 'module.'
+Missing keys:0
+Unused checkpoint keys:0
+Used keys:181
+OA 86.94%
+pred_trl_acc 92.00%, pred_tru_acc 87.28%, pred_test_acc 86.94%
+assessment_result farmland_2 [86.98, 0.6536, 73.66, 89.16, 62.760000000000005]

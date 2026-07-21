@@ -1,0 +1,22 @@
+%1训练样本
+batch size = 512  patche = 5  epochs = 100
+
+dataset: Hermiston
+Final result:
+OA: 0.9845 | F1: 0.9666 | Pr: 0.9507 | Re: 0.9842 | Kappa: 0.9332 | AA: 0.9842
+
+dataset: river
+Final result:
+OA: 0.9446 | F1: 0.8010 | Pr: 0.8528 | Re: 0.7648 | Kappa: 0.6027 | AA: 0.7648
+
+dataset: farmland
+Final result:
+OA: 0.9673 | F1: 0.9608 | Pr: 0.9553 | Re: 0.9667 | Kappa: 0.9215 | AA: 0.9667
+
+dataset: Barbara
+Final result:
+OA: 0.9795 | F1: 0.9786 | Pr: 0.9786 | Re: 0.9785 | Kappa: 0.9571 | AA: 0.9785
+
+dataset: BayArea
+Final result:
+OA: 0.9808 | F1: 0.9808 | Pr: 0.9803 | Re: 0.9814 | Kappa: 0.9615 | AA: 0.9814

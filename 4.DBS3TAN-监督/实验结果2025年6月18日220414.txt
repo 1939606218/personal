@@ -1,0 +1,2 @@
+OA: 0.1314, Kappa: 0.0010, F1: 0.2277, Pr: 0.5650, Re: 0.5000
+***Training End! Total Time 262.8 sec***

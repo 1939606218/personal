@@ -1,0 +1,16 @@
+batch_size=64  patches=7   epoches=100  learning_rate=0.0005  ratio=1%
+
+hermiston
+OA: 0.9891, Kappa: 0.9509,F1: 0.9572, Precision: 0.9612, Recall: 0.9531
+
+river
+OA: 0.9634, Kappa: 0.7739,F1: 0.7940, Precision: 0.7771, Recall: 0.8116,
+
+farmland
+OA: 0.9674, Kappa: 0.9207, F1: 0.9436, Precision: 0.9461, Recall: 0.9412
+
+Barbara
+OA: 0.9928, Kappa: 0.9850,F1: 0.9909, Precision: 0.9896, Recall: 0.9921
+
+BayArea
+OA: 0.9864, Kappa: 0.9726,F1: 0.9872, Precision: 0.9880, Recall: 0.9865

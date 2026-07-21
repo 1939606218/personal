@@ -1,0 +1,39 @@
+{
+  "datasets": {
+    "farmland": {
+      "OA": 0.9478,
+      "Kappa": 0.8763,
+      "Precision": 0.9501,
+      "Recall": 0.9478,
+      "F1-score": 0.9484
+    },
+    "hermiston": {
+      "OA": 0.9580,
+      "Kappa": 0.8149,
+      "Precision": 0.9587,
+      "Recall": 0.9580,
+      "F1-score": 0.9583
+    },
+    "river": {
+      "OA": 0.9054,
+      "Kappa": 0.3054,
+      "Precision": 0.8918,
+      "Recall": 0.9054,
+      "F1-score": 0.8973
+    },
+    "santaBarbara": {
+      "OA": 0.9439,
+      "Kappa": 0.6697,
+      "Precision": 0.9535,
+      "Recall": 0.9439,
+      "F1-score": 0.9474
+    },
+    "bayArea": {
+      "OA": 0.8802,
+      "Kappa": 0.3581,
+      "Precision": 0.8679,
+      "Recall": 0.8802,
+      "F1-score": 0.8560
+    }
+  }
+}
