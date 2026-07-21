@@ -27,7 +27,10 @@
 
 # Datasets
 datasets/
-dataset/
+
+# But include 1.SSA/dataset/
+!1.SSA/dataset/
+!1.SSA/dataset/**
 
 # Training/val data
 train/
